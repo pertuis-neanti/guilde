@@ -30,6 +30,18 @@ body {
     padding: 1rem 2rem;
 }
 
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo-img {
+    height: 50px;
+    width: auto;
+    border-radius: 4px;
+}
+
 .nav-title {
     font-size: 1.8rem;
     font-weight: bold;
@@ -213,6 +225,11 @@ body {
 
 /* RESPONSIVE */
 @media (max-width: 768px) {
+    .nav-container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
     .nav-links {
         gap: 1rem;
         font-size: 0.9rem;
@@ -236,5 +253,13 @@ body {
 
     .container {
         padding: 1rem;
+    }
+
+    .logo-img {
+        height: 40px;
+    }
+
+    .nav-title {
+        font-size: 1.4rem;
     }
 }
