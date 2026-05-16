@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #0a0e27;
+    background-color: #0a1f1a;
     color: #e0d5b7;
     line-height: 1.6;
 }
@@ -67,7 +67,7 @@ body {
 
 .nav-link:hover,
 .nav-link.active {
-    background-color: #d4af37;
+    background-color: #e9ded1;
     color: #0a0e27;
     font-weight: bold;
 }
