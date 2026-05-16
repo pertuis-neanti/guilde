@@ -37,7 +37,7 @@ body {
 }
 
 .logo-img {
-    height: 50px;
+    height: 40px;
     width: auto;
     border-radius: 4px;
 }
@@ -181,13 +181,14 @@ body {
 }
 
 .member-skin {
-    width: 120px;
-    height: 120px;
+    width: 64px;
+    height: 85px;
     border: 2px solid #d4af37;
     border-radius: 4px;
     margin: 0 auto 1rem;
     display: block;
     image-rendering: pixelated;
+    object-fit: contain;
 }
 
 .member-card h3 {
@@ -256,7 +257,7 @@ body {
     }
 
     .logo-img {
-        height: 40px;
+        height: 35px;
     }
 
     .nav-title {
