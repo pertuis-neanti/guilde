@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guilde Brocéliande - Minecraft</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-title">⚔️ Guilde Brocéliande</div>
+            <ul class="nav-links">
+                <li><a href="#accueil" class="nav-link active" onclick="showSection('accueil')">Accueil</a></li>
+                <li><a href="#echanges" class="nav-link" onclick="showSection('echanges')">Échanges PNJ</a></li>
+                <li><a href="#coffres" class="nav-link" onclick="showSection('coffres')">Coffres</a></li>
+                <li><a href="#metiers" class="nav-link" onclick="showSection('metiers')">Métiers</a></li>
+                <li><a href="#donjons" class="nav-link" onclick="showSection('donjons')">Donjons</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- SECTION ACCUEIL -->
+        <section id="accueil" class="section active">
+            <div class="hero">
+                <div class="hero-overlay"></div>
+                <div class="hero-content">
+                    <h1>Bienvenue à Brocéliande</h1>
+                    <p class="tagline">Mystère, légende et aventure vous attendent dans les forêts enchantées.</p>
+                </div>
+            </div>
+
+            <div class="members-section">
+                <h2>👥 Nos Membres</h2>
+                <div class="members-grid">
+                    <!-- Mayaserana24 -->
+                    <div class="member-card">
+                        <img src="https://fr.namemc.com/profile/Mayaserana24.1" alt="Mayaserana24 skin" class="member-skin">
+                        <h3>Mayaserana24</h3>
+                        <p class="member-role">Maîtresse de la guilde</p>
+                    </div>
+
+                    <!-- Oramorphed -->
+                    <div class="member-card">
+                        <img src="https://fr.namemc.com/profile/Oramorphed.1" alt="Oramorphed skin" class="member-skin">
+                        <h3>Oramorphed</h3>
+                        <p class="member-role">Bras-droit<br>Maire adjointe Lloegyr</p>
+                    </div>
+
+                    <!-- Shasha719 -->
+                    <div class="member-card">
+                        <img src="https://fr.namemc.com/profile/Shasha719.1" alt="Shasha719 skin" class="member-skin">
+                        <h3>Shasha719</h3>
+                        <p class="member-role">Diplomate<br>Maire Lloegyr</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION ÉCHANGES PNJ -->
+        <section id="echanges" class="section">
+            <h2>🏪 Échanges avec les PNJ</h2>
+            <p class="placeholder">Cette section est en construction...</p>
+        </section>
+
+        <!-- SECTION COFFRES -->
+        <section id="coffres" class="section">
+            <h2>💎 Coffres Cachés</h2>
+            <p class="placeholder">Cette section est en construction...</p>
+        </section>
+
+        <!-- SECTION MÉTIERS -->
+        <section id="metiers" class="section">
+            <h2>⚒️ Optimisation des Métiers</h2>
+            <p class="placeholder">Cette section est en construction...</p>
+        </section>
+
+        <!-- SECTION DONJONS -->
+        <section id="donjons" class="section">
+            <h2>🗡️ Guides des Donjons</h2>
+            <p class="placeholder">Cette section est en construction...</p>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
