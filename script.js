@@ -1,5 +1,4 @@
-// Fonction pour afficher une section et changer le titre
-function showSection(sectionId, pageTitle) {
+function showSection(sectionId, pageTitle, event) {
     // Cacher toutes les sections
     const sections = document.querySelectorAll('.section');
     sections.forEach(section => {
@@ -20,7 +19,9 @@ function showSection(sectionId, pageTitle) {
     navLinks.forEach(link => {
         link.classList.remove('active');
     });
-    
+
     // Ajouter la classe active au lien cliqué
-    event.target.classList.add('active');
+    if (event && event.target) {
+        event.target.classList.add('active');
+    }
 }
