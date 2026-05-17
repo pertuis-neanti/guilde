@@ -99,20 +99,20 @@ body {
     }
 }
 
-/* HERO */
-.hero {
+/* PRESENTATION */
+.presentation {
     position: relative;
     height: 500px;
     border-radius: 8px;
     overflow: hidden;
     margin-bottom: 3rem;
-    background: linear-gradient(135deg, #1a1f3a 0%, #2d2e4a 100%);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
 }
 
-.hero-overlay {
+.presentation-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -121,7 +121,7 @@ body {
     background: rgba(10, 14, 39, 0.4);
 }
 
-.hero-content {
+.presentation-content {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -130,7 +130,7 @@ body {
     z-index: 2;
 }
 
-.hero-content h1 {
+.presentation-content h1 {
     font-size: 3.5rem;
     color: #d4af37;
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
