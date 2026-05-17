@@ -96,7 +96,7 @@ body {
     to { opacity: 1; }
 }
 
-/* PRESENTATION (ex-HERO) */
+/* PRESENTATION */
 .presentation {
     position: relative;
     width: 100%;
@@ -106,7 +106,6 @@ body {
     margin-bottom: 3rem;
 
     /* Image plein écran largeur, non déformée */
-    background-image: url("ton-image.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
