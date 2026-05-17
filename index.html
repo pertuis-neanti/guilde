@@ -7,17 +7,21 @@
     <link rel="icon" type="image/png" href="assets/images/logo.png">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
-                <img src="https://raw.githubusercontent.com/pertuis-neanti/guilde/main/assets/images/logo.png" alt="Logo Pertuis Neanti" class="logo-img">
+                <img src="https://raw.githubusercontent.com/pertuis-neanti/guilde/main/assets/images/logo.png" 
+                     alt="Logo Pertuis Neanti" class="logo-img">
                 <span class="nav-title">Pertuis Neanti</span>
             </div>
+
             <ul class="nav-links">
                 <li><a href="#accueil" class="nav-link active" onclick="showSection('accueil', 'Pertuis Neanti')">Accueil</a></li>
-                <li><a href="#echanges" class="nav-link" onclick="showSection('commerce', 'Pertuis Neanti - Commerce')">Commerce</a></li>
+                <li><a href="#echanges" class="nav-link" onclick="showSection('echanges', 'Pertuis Neanti - Commerce')">Commerce</a></li>
                 <li><a href="#coffres" class="nav-link" onclick="showSection('coffres', 'Pertuis Neanti - Coffres Cachés')">Coffres cachés</a></li>
                 <li><a href="#metiers" class="nav-link" onclick="showSection('metiers', 'Pertuis Neanti - Métiers')">Métiers</a></li>
                 <li><a href="#donjons" class="nav-link" onclick="showSection('donjons', 'Pertuis Neanti - Guides Donjons')">Guides donjons</a></li>
@@ -25,71 +29,90 @@
         </div>
     </nav>
 
-    <!-- Main Container -->
-    <div class="container">
-        <!-- SECTION ACCUEIL -->
-        <section id="accueil" class="section active">
-            <!-- Presentation -->
-            <div class="presentation" style="background-image: url('https://raw.githubusercontent.com/pertuis-neanti/guilde/main/assets/images/accueil_fond.jpg');">
-                <div class="presentation-overlay"></div>
-                <div class="presentation-content">
-                    <h1>Bienvenue à Brocéliande</h1>
-                    <p class="tagline">Mystère, légende et aventure vous attendent dans les forêts enchantées.</p>
-                </div>
+    <!-- SECTION ACCUEIL -->
+    <section id="accueil" class="section active">
+
+        <!-- PRESENTATION -->
+        <div class="presentation" 
+             style="background-image: url('https://raw.githubusercontent.com/pertuis-neanti/guilde/main/assets/images/accueil_fond.jpg');">
+            <div class="presentation-overlay"></div>
+
+            <div class="presentation-content">
+                <h1>Bienvenue à Brocéliande</h1>
+                <p class="tagline">Mystère, légende et aventure vous attendent dans les forêts enchantées.</p>
             </div>
-            
+        </div>
+
+        <div class="container">
+
             <!-- Liste des membres -->
             <div class="members-section">
                 <h2>Liste des membres</h2>
+
                 <div class="members-grid">
+
                     <!-- Mayaserana24 -->
                     <div class="member-card">
-                        <img src="https://raw.githubusercontent.com/pertuis-neanti/guilde/main/assets/images/skin_mayaserana24.png" alt="Mayaserana24 skin" class="member-skin">
+                        <img src="https://raw.githubusercontent.com/pertuis-neanti/guilde/main/assets/images/skin_mayaserana24.png" 
+                             alt="Mayaserana24 skin" class="member-skin">
                         <h3>Mayaserana24</h3>
                         <p class="member-role">Maîtresse de la guilde</p>
                     </div>
 
                     <!-- Oramorphed -->
                     <div class="member-card">
-                        <img src="https://raw.githubusercontent.com/pertuis-neanti/guilde/main/assets/images/skin_oramorphed.png" alt="Oramorphed skin" class="member-skin">
+                        <img src="https://raw.githubusercontent.com/pertuis-neanti/guilde/main/assets/images/skin_oramorphed.png" 
+                             alt="Oramorphed skin" class="member-skin">
                         <h3>Oramorphed</h3>
                         <p class="member-role">Bras-droit<br>Maire adjointe Lloegyr</p>
                     </div>
 
                     <!-- Shasha719 -->
                     <div class="member-card">
-                        <img src="https://raw.githubusercontent.com/pertuis-neanti/guilde/main/assets/images/skin_shasha719.png" alt="Shasha719 skin" class="member-skin">
+                        <img src="https://raw.githubusercontent.com/pertuis-neanti/guilde/main/assets/images/skin_shasha719.png" 
+                             alt="Shasha719 skin" class="member-skin">
                         <h3>Shasha719</h3>
                         <p class="member-role">Diplomate<br>Maire Lloegyr</p>
                     </div>
+
                 </div>
             </div>
-        </section>
 
-        <!-- SECTION ÉCHANGES PNJ -->
-        <section id="echanges" class="section">
+        </div>
+
+    </section>
+
+    <!-- SECTION ÉCHANGES PNJ -->
+    <section id="echanges" class="section">
+        <div class="container">
             <h2>🏪 Échanges avec les PNJ</h2>
             <p class="placeholder">Cette section est en construction...</p>
-        </section>
+        </div>
+    </section>
 
-        <!-- SECTION COFFRES -->
-        <section id="coffres" class="section">
+    <!-- SECTION COFFRES -->
+    <section id="coffres" class="section">
+        <div class="container">
             <h2>💎 Coffres Cachés</h2>
             <p class="placeholder">Cette section est en construction...</p>
-        </section>
+        </div>
+    </section>
 
-        <!-- SECTION MÉTIERS -->
-        <section id="metiers" class="section">
+    <!-- SECTION MÉTIERS -->
+    <section id="metiers" class="section">
+        <div class="container">
             <h2>⚒️ Optimisation des Métiers</h2>
             <p class="placeholder">Cette section est en construction...</p>
-        </section>
+        </div>
+    </section>
 
-        <!-- SECTION DONJONS -->
-        <section id="donjons" class="section">
+    <!-- SECTION DONJONS -->
+    <section id="donjons" class="section">
+        <div class="container">
             <h2>🗡️ Guides des Donjons</h2>
             <p class="placeholder">Cette section est en construction...</p>
-        </section>
-    </div>
+        </div>
+    </section>
 
     <script src="script.js"></script>
 </body>
