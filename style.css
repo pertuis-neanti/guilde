@@ -28,16 +28,12 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    /* Logo plus proche du bord */
     padding: 1rem 1rem;
 }
 
 .nav-logo {
     display: flex;
     align-items: center;
-
-    /* Réduit l’espace entre logo et texte */
     gap: 0.4rem;
 }
 
